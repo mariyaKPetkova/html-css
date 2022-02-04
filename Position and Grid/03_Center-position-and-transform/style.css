@@ -1,0 +1,46 @@
+body {
+    font-family: Georgia, serif;
+    background: rgb(238, 238, 238);
+    
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    font-size: 1em;
+    line-height: 1.2;
+}
+.card {
+    background: rgb(255, 255, 255);
+    max-width: 300px;
+    position: relative;
+   left: 50%; 
+   top: 50%;
+   transform: translate(-50%, 50%);
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow:  1px 1px 10px 10px #aaaaaa;
+}
+img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    max-width: 100%;
+}
+button {
+    border: none;
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background: rgb(0, 153, 0);
+    font-size: 17px;
+    position: relative;
+   left: 100px;
+   bottom: 10px;
+  
+}
+.text{
+    text-align: center;
+    margin: 20px;
+    padding: 10px ;
+}
