@@ -1,1 +1,24 @@
-/* TODO: style the html */
+
+.model{
+    border: 1px solid gray;
+    position: relative;
+}
+.frame{
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+.text{
+    position: absolute;
+    top: 450px;
+    left: 190px;
+}
+h3 {
+    font-size: 16px;
+margin: 0px;
+}
+span{
+    padding-left: 3px;
+    color: gray;
+    font-size: 14px;
+}

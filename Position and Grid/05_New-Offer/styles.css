@@ -1,1 +1,19 @@
-//TODO
+main{
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+    
+}
+img:first-of-type{
+    position: relative;
+    left: 290px;
+    top: 40px;
+   
+}
+.new{
+    position:relative;
+    left: 150px;
+    top:-200px;
+   
+    
+}

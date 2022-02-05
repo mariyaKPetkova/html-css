@@ -1,1 +1,12 @@
-//TODO
+img{
+    position: relative;
+    width: 700px;
+    height: 400px;
+}
+h1{
+    position: absolute;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+    top:50px;
+    left: 210px;
+}

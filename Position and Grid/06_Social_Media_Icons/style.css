@@ -1,0 +1,29 @@
+@import url('https://use.fontawesome.com/releases/v5.15.4/css/all.css');
+ul li{
+    background-color: lightgray;
+  display: inline-block;
+  margin: 20px;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  padding: 10px;
+}
+.fab.fa-facebook:hover{
+    transition: 0.3s;
+    color: blue;
+}
+.fab.fa-twitter:hover{
+    transition: 0.3s;
+    color: aqua;
+}
+.fab.fa-google-plus-g:hover{
+    transition: 0.3s;
+    color: red;
+}
+.fab.fa-linkedin:hover{
+    transition: 0.3s;
+    color: rgb(72, 151, 216);
+}
+.fab.fa-instagram:hover{
+    transition: 0.3s;
+    color: gray;
+}
