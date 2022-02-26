@@ -1,4 +1,188 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url("https://use.fontawesome.com/releases/v5.10.2/css/all.css");
 @import url("./reset.css");
-/* @media screen and (max-width: 600px) */
+
+:root {
+    --color-blue: #0072b1;
+    --color-beige: #f1ece5;
+    --color-beige-light: #faf9f7;
+    --color-gray: #605e5c;
+    --color-gray-light: #e6e5e4;
+    --color-orange: #b54829;
+  }
+body{
+    padding: 10px 40px;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+nav span{
+    max-width: 50%;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--color-blue);
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 10px 30px;
+    color: var(--color-blue);
+    text-decoration: none ; 
+}
+nav ul li a:hover{
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    padding: 2px 10px;
+    transition: 0.3s;
+}
+/* welcome */
+.welcome{
+    position:relative;
+}
+.welcome h1{
+    color: var(--color-blue);
+    max-width: 800px;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.welcome form input{
+    display: flex;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    width: 400px;
+}
+.welcome form p{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.welcome button{
+    padding: 5px 10px;
+    width: 400px;
+    border-radius: 12px;
+    background-color: var(--color-blue);
+    color: white;
+}
+.welcome button:hover{
+    background-color: white;
+    color: var(--color-blue);
+    transition: 0.3s;
+}
+img{
+    max-width: 40%;
+    position: absolute;
+    top:0;
+    right: 0;
+}
+/* find */
+.find {
+    display: flex;
+    margin: 100px 0px 0px;
+}
+.find h2{
+    max-width: 20%;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.find div {
+    padding:  0px 150px ;
+}
+.find div p{
+    font-weight: bold;
+    margin: 5px;
+}
+.find div ul li{
+    display: inline-block;
+    border: 1px solid var(--color-gray-light);
+    border-radius: 10px;
+    background-color: var(--color-gray-light);
+    padding: 5px 15px;
+    margin:5px;
+}
+.find{
+    padding: 100px 20px;
+    background-color: var(--color-beige-light);
+}
+/* post */
+.post{
+    padding: 10px 20px;
+    background-color: var(--color-beige);
+}
+.post h2, .post button { 
+    margin: 50px 0px;
+    display: inline-block;
+}
+.post h2{
+    max-width: 30%;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+}
+.post button{
+    
+    border: 1px solid var(--color-gray-light);
+    border-radius: 10px;
+    background-color: var(--color-gray-light);
+    padding: 5px 15px;
+    margin: 0px 30px;
+}
+/* know */
+.know{
+    padding: 150px 20px;
+    background-color: var(--color-beige-light);
+    position: relative;
+}
+.know div, .know img{
+    display: flex;
+    flex-direction: column;
+}
+.know div{
+    width: 40%;
+}
+.know h3{
+    color: var(--color-blue);
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+.know p{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 1.2;
+}
+img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* info */
+.info{
+    
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.info p{
+    font-weight: bold;
+    font-size: 32px;
+    width: 40%;
+}
+.conect img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.learn img{
+    position: absolute;
+    top:0;
+    right: 0;
+}
