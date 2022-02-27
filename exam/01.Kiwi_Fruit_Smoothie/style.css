@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif&display=swap");
+@import url("./reset.css");
+
+html{
+    font-style: 'PT Serif', serif;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+.info{
+    margin: 15px;
+}
+.info header h1{
+    text-align: center;
+    border-bottom: 1px solid green;
+    font-weight:bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+    padding-bottom: 4px;
+}
+.info header div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6px;
+}
+section ul{
+    padding: 25px 0;
+}
+.gr{
+    color: green;
+}
+section p {
+    padding: 20px 0;
+}
+table {
+    width: 100%;
+  }
+table,td,tr{
+    border: 1px solid green;
+    text-align: center;
+    padding: 4px;
+}

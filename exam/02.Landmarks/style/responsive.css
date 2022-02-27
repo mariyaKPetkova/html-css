@@ -1,0 +1,54 @@
+/* TODO */
+@media screen and (max-width: 600px) {
+    /* main */
+    #main-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    #main-menu ul {
+        margin: 8px auto;
+    }
+    #main-menu ul li{
+        width: 100px;
+        display: block;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 2px;
+    }
+    #main-menu img{
+        width: 200px;
+        margin: 8px auto;
+    }
+    
+    #left-aside{
+        flex-direction: row;
+        width: 100%;
+        margin: 8px auto;
+    }
+    #left-aside article{
+        margin: 8px auto;
+    }
+    main aside, main section {
+        display: flex;
+        flex-direction: column;
+    }
+    #news {
+        width: 92%;
+        margin: 25px;
+    }
+    #news article{
+        margin: 2px auto;
+        width: 100%;
+    }
+    #right-aside{
+        width: 100%;
+        padding: 15px 5px ;
+        margin: 15px 5px;
+    }
+    footer ul {
+        width: 50%;
+        display: block;
+        padding: 15px ;
+        margin: 15px;
+    }
+}
